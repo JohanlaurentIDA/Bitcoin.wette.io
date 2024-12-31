@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bitcoin Preisvergleich</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bitcoin Preisvergleich</h1>
+    <p id="bitcoin-price">Lade aktuellen Bitcoin-Preis...</p>
+    <table id="price-comparison">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Vergleichspreis (USD)</th>
+          <th>Aktuelle Differenz (USD)</th>
+          <th>Aktuelle Differenz (%)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Johan</td>
+          <td id="johan-price">123123</td>
+          <td id="johan-diff">-</td>
+          <td id="johan-percent">-</td>
+        </tr>
+        <tr>
+          <td>Andreas</td>
+          <td id="andreas-price">74030</td>
+          <td id="andreas-diff">-</td>
+          <td id="andreas-percent">-</td>
+        </tr>
+        <tr>
+          <td>Frank</td>
+          <td id="frank-price">24334</td>
+          <td id="frank-diff">-</td>
+          <td id="frank-percent">-</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
